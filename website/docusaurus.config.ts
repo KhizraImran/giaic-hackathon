@@ -12,7 +12,7 @@ const config: Config = {
   baseUrl: '/',
 
   organizationName: 'KhizraImran',
-  projectName: 'hackathon-book',
+  projectName: 'giaic-hackathon',
 
   onBrokenLinks: 'throw',
   markdown: {
