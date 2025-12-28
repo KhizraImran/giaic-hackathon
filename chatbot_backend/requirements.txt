@@ -1,9 +1,0 @@
-fastapi 
-uvicorn
-google-generativeai
-qdrant-client
-python-dotenv
-asyncpg  # for Neon Serverless Postgres
-sqlalchemy
-httpx
-pytest-asyncio
