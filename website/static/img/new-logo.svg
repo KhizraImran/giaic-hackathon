@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Robot head with AI elements -->
+  <circle cx="50" cy="40" r="25" fill="#4458c2" opacity="0.8"/>
+
+  <!-- Robot eyes -->
+  <circle cx="40" cy="35" r="4" fill="#fff"/>
+  <circle cx="60" cy="35" r="4" fill="#fff"/>
+  <circle cx="40" cy="35" r="2" fill="#4458c2"/>
+  <circle cx="60" cy="35" r="2" fill="#4458c2"/>
+
+  <!-- Circuit pattern on head -->
+  <path d="M45 45 L55 45 M45 50 L55 50 M45 55 L55 55" stroke="#fff" stroke-width="1" fill="none"/>
+
+  <!-- Body/chest area -->
+  <rect x="35" y="65" width="30" height="20" rx="5" fill="#2d44a0" opacity="0.8"/>
+
+  <!-- Neural network nodes -->
+  <circle cx="30" cy="25" r="3" fill="#4ecdc4"/>
+  <circle cx="70" cy="25" r="3" fill="#4ecdc4"/>
+  <circle cx="25" cy="50" r="3" fill="#4ecdc4"/>
+  <circle cx="75" cy="50" r="3" fill="#4ecdc4"/>
+  <circle cx="30" cy="75" r="3" fill="#4ecdc4"/>
+  <circle cx="70" cy="75" r="3" fill="#4ecdc4"/>
+
+  <!-- Connecting neural network lines -->
+  <line x1="30" y1="25" x2="40" y2="35" stroke="#4ecdc4" stroke-width="1"/>
+  <line x1="70" y1="25" x2="60" y2="35" stroke="#4ecdc4" stroke-width="1"/>
+  <line x1="25" y1="50" x2="35" y2="50" stroke="#4ecdc4" stroke-width="1"/>
+  <line x1="75" y1="50" x2="65" y2="50" stroke="#4ecdc4" stroke-width="1"/>
+  <line x1="30" y1="75" x2="40" y2="65" stroke="#4ecdc4" stroke-width="1"/>
+  <line x1="70" y1="75" x2="60" y2="65" stroke="#4ecdc4" stroke-width="1"/>
+
+  <!-- Base stand -->
+  <rect x="40" y="85" width="20" height="5" fill="#1a2a6c"/>
+</svg>

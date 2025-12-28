@@ -1,0 +1,119 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 6rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #faf4eb 0%, #f5ebe0 100%);
+  border-bottom: 1px solid #e6d4b8;
+  margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 3rem 1rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.featuredSection {
+  padding: 4rem 2rem;
+  background-color: #faf4eb;
+  margin: 2rem 0;
+}
+
+.featuredSection h2 {
+  text-align: center;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  color: #5a4a42;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.featuredSection h2:after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #d4b896;
+  margin: 1rem auto;
+  border-radius: 2px;
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.featureCard {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(138, 110, 78, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #e6d4b8;
+}
+
+.featureCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(138, 110, 78, 0.15);
+}
+
+.featureCard h3 {
+  color: #5a4a42;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.featureCard p {
+  color: #7d6e65;
+  line-height: 1.6;
+}
+
+.callToAction {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #f5ebe0 0%, #faf4eb 100%);
+  margin: 3rem 0;
+  border-radius: 12px;
+}
+
+.callToAction h2 {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  color: #5a4a42;
+  margin-bottom: 1.5rem;
+}
+
+.callToAction p {
+  color: #7d6e65;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}
+
+.secondaryButton {
+  background: transparent !important;
+  color: #5a4a42 !important;
+  border: 2px solid #d4b896 !important;
+}
+
+.secondaryButton:hover {
+  background: #d4b896 !important;
+  color: white !important;
+}
